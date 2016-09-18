@@ -1069,13 +1069,25 @@ MonoBehaviour:
   testEnemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
   waves:
   - enemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
+    spawnInterval: 3
+    maxEnemies: 6
+    arraySpeed: 010000000200000003000000
+  - enemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
     spawnInterval: 2
-    maxEnemies: 400
-    arraySpeed: 030000002c010000
+    maxEnemies: 31
+    arraySpeed: 02000000030000000400000005000000
   - enemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
     spawnInterval: 1
-    maxEnemies: 6
-    arraySpeed: 010000000a000000
+    maxEnemies: 51
+    arraySpeed: 0200000003000000040000000500000006000000
+  - enemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
+    spawnInterval: 1
+    maxEnemies: 61
+    arraySpeed: 0300000004000000050000000600000007000000
+  - enemyPrefab: {fileID: 144080, guid: ea4386e36e799477b9e5c02a9ce0435c, type: 2}
+    spawnInterval: 1
+    maxEnemies: 91
+    arraySpeed: 0400000005000000060000000700000008000000
   timeBetweenWaves: 10
   yPositionArray: 960000007affffffa2feffff
 --- !u!4 &1541372089
@@ -1165,7 +1177,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 21241696, guid: 30b3454f8fdf97b4681680687d336590, type: 2}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30b3454f8fdf97b4681680687d336590, type: 2}
