@@ -1159,6 +1159,10 @@ Prefab:
       propertyPath: m_TagString
       value: sentai
       objectReference: {fileID: 0}
+    - target: {fileID: 21241696, guid: 30b3454f8fdf97b4681680687d336590, type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 30b3454f8fdf97b4681680687d336590, type: 2}
   m_IsPrefabParent: 0
