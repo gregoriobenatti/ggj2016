@@ -2,17 +2,21 @@
 using System.Collections;
 
 public class EnemyMove : MonoBehaviour {
-    public int initialPosition;
-    public int finalPosition;
-    public int enemyVelocity = 3;
+	private GameManager gameManager;
 
-    public string[] keyToKillArray = { "UpArrow", "DownArrow", "LeftArrow", "RightArrow" };
+	public int initialPosition;
+    public int finalPosition;
+	public int enemyVelocity = 99;
+
+	public string[] keyToKillArray = { "UpArrow", "DownArrow", "LeftArrow", "RightArrow" };
     private string keyToKill;
 
 
 	// Use this for initialization
 	void Start () {
-        int k = Random.Range(0, keyToKillArray.Length);
+		print ("ENEMY VEL = " + enemyVelocity);
+
+		int k = Random.Range(0, keyToKillArray.Length);
         keyToKill = keyToKillArray[k];
 	}
 
